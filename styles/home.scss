@@ -275,8 +275,11 @@ body {
             font-size: 28px;
           }
         }
-        .content .title h1 {
-          font-size: 45px;
+        .content {
+          margin-top: 58px;
+          .title h1 {
+            font-size: 45px;
+          }
         }
       }
       .summary .item {
@@ -294,8 +297,8 @@ body {
   .header {
     position: fixed;
     top: 0;
-    left: 0%;
-    width: 100%;
+    left: 5%;
+    width: 90%;
     z-index: 100;
     background: white;
     .navbar-collapse {
@@ -313,8 +316,9 @@ body {
 
 @media screen and (max-width: 630px) {
   .header{
-    width: 90%;
-    left: 5%;
+    width: 100%;
+    left: 0%;
+    width: 100%;
   }
   .home {
     .left .summary {
