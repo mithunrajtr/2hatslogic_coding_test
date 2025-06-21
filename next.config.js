@@ -5,5 +5,6 @@ module.exports = {
     },
     assetPrefix: '/2hatslogic_coding_test',
     basePath: '/2hatslogic_coding_test',
+    distDir: 'docs'  
   };
   

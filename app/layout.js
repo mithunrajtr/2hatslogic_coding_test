@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.css'
-import '../public/styles/home.scss';
+import '../components/styles/home.scss';
 
 export const metadata = {
   title: "Learn graphics design for life",
